@@ -10,7 +10,7 @@
 
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
-#include "MainMenu.h"
+#include "Intro.h"
 
 USING_NS_CC;
 using namespace CocosDenshion;
@@ -37,7 +37,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = MainMenu::scene();
+    CCScene *pScene = Intro::scene();
 
     // run
     pDirector->runWithScene(pScene);
