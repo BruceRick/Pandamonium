@@ -44,6 +44,25 @@
 	</dict>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>UIStatusBarTintParameters</key>
+	<dict>
+		<key>UINavigationBar</key>
+		<dict>
+			<key>Style</key>
+			<string>UIBarStyleDefault</string>
+			<key>TintColor</key>
+			<dict>
+				<key>Blue</key>
+				<real>1</real>
+				<key>Green</key>
+				<real>0.85307001228663537</real>
+				<key>Red</key>
+				<real>0.89396087803169866</real>
+			</dict>
+			<key>Translucent</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
